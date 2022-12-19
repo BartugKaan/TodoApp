@@ -49,6 +49,7 @@ function submitFunction(e) {
   } else {
     listItemCreator(textInput.value);
     addItemsToStorage(textInput.value);
+    textInput.value = "";
   }
 }
 
