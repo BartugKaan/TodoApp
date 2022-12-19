@@ -1,0 +1,75 @@
+.header{
+    background-color: orange;
+}
+#kodluyoruz-img{
+    background-color: white;
+}
+
+#submit-btn{
+    width: 150px;
+    height: 50px;
+}
+
+#text-input{
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.liBackgroundDark{
+    background-color: rgb(195, 195, 195);
+    color: black;
+}
+.liBackgroundLight{
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+
+li{
+    padding: 1%;
+}
+
+.deleteBtnDark{
+    background-color: rgb(195, 195, 195);
+    color: black;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+
+.deleteBtnDark:hover{
+    animation: 10ms;
+    background-color: orange;
+    color: white;
+}
+
+.deleteBtnLight{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-weight: bold;
+    border: none;
+    float: right;
+}
+
+.deleteBtnLight:hover{
+    animation: 10ms;
+    background-color: orange;
+    color: white;
+}
+
+
+.checkedLi{
+    background-color: rgb(0, 186, 203);
+    color: white;
+    text-decoration: line-through;
+    padding: 1%;
+}
+
+.deleteBtnChecked{
+    background-color: rgb(0, 186, 203);
+    color: white;
+    border: none;
+    float: right;
+}
